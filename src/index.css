@@ -1,0 +1,42 @@
+body {
+  padding: 0px;
+  margin: 0;
+  /* background-color: #495057; */
+  background: rgb(28, 31, 34);
+  background: radial-gradient(
+    circle,
+    rgba(28, 31, 34, 1) 0%,
+    rgba(24, 28, 31, 1) 29%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  min-height: 500vh;
+}
+
+h1,
+h2 {
+  color: #979dac;
+  font-family: "Poppins", sans-serif;
+}
+
+.progress {
+  height: 3px;
+  width: 0%;
+  background-color: #c77dff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  animation: progress 1s linear;
+}
+@keyframes progress {
+  to {
+    background-color: #7b2cbf;
+    width: 100%;
+  }
+}
+
+:root * {
+  animation-play-state: paused;
+  animation-delay: calc(var(--scroll) * -1s);
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+}

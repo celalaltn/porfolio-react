@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "image": "https://picsum.photos/150/150",
+    "title": "React.js"
+  },
+  {
+    "id": 2,
+    "image": "https://picsum.photos/150/150",
+    "title": "Next.js"
+  },
+  {
+    "id": 3,
+    "image": "https://picsum.photos/150/150",
+    "title": "HTML"
+  }
+]
