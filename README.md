@@ -38,7 +38,7 @@ To run this project locally, you will need:
 
 
 
-### Usage
+###           Usage
 The project is designed to showcase your personal portfolio and projects. Here are some basic usage guidelines:
 
 Update your personal information and projects by editing the relevant components in the src/components directory.
