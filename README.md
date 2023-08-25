@@ -26,9 +26,9 @@ To run this project locally, you will need:
         
         npm install
 
+### Installation
 
-
-
+### Installation
 3. Start the development server:
 
         npm start
@@ -36,8 +36,9 @@ To run this project locally, you will need:
 4. You should see the project running at http://localhost:3000 in your web browser.
 
 
-                                                Usage
 
+
+### Usage
 The project is designed to showcase your personal portfolio and projects. Here are some basic usage guidelines:
 
 Update your personal information and projects by editing the relevant components in the src/components directory.
