@@ -2,8 +2,6 @@
 import React from "react";
 // Material UI
 import { Box, Grid, Typography, useMediaQuery } from "@mui/material";
-//Image
-import image from "../assests/person.png";
 //CSS File
 import "./style.css";
 //JSON File
@@ -54,7 +52,7 @@ export default function Name() {
             alignItems={"end"}
             padding={3}
           >
-            <img src={image} alt="" width="80%" height="100%" />
+            <img src="../assests/person.png" alt="" width="80%" height="100%" />
           </Box>
         </Grid>
       </Grid>

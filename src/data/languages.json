@@ -1,17 +1,27 @@
 [
   {
     "id": 1,
-    "image": "https://picsum.photos/150/150",
-    "title": "React.js"
+    "image": "../assests/html.png",
+    "title": "HTML"
   },
   {
     "id": 2,
-    "image": "https://picsum.photos/150/150",
-    "title": "Next.js"
+    "image": "../assests/css.png",
+    "title": "CSS"
   },
   {
     "id": 3,
-    "image": "https://picsum.photos/150/150",
-    "title": "HTML"
+    "image": "../assests/javascript.png",
+    "title": "JavaScript"
+  },
+  {
+    "id": 4,
+    "image": "../assests/react.png",
+    "title": "React"
+  },
+  {
+    "id": 5,
+    "image": "../assests/next.png",
+    "title": "Next.js"
   }
 ]

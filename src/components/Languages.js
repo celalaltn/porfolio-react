@@ -1,15 +1,26 @@
-import { Box, Grid, Typography } from "@mui/material";
-import React, { Fragment } from "react";
+// React
+import React from "react";
+// Material UI
+import { Grid, Typography, useMediaQuery } from "@mui/material";
+// JSON File
 import data from "../data/languages.json";
+
 export default function Languages() {
-  const sonuclar = data.map((veri) => (
-    <div key={veri.id}>
+  const isMobile = useMediaQuery("(min-width:900px)");
+
+  const languages = data.map((photos) => (
+    <div key={photos.id}>
       <Grid item xs={12}>
         <Grid container justifyContent="center" alignItems="center">
           <Grid item>
-            <img src={veri.image} alt={veri.title} />
+            <img
+              src={photos.image}
+              alt={photos.title}
+              style={{ width: "170px", height: "170px" }}
+            />
             <Typography component="p" color="white" textAlign="center">
-              {veri.title}
+              <br />
+              {photos.title}
             </Typography>
           </Grid>
         </Grid>
@@ -18,8 +29,21 @@ export default function Languages() {
   ));
   return (
     <>
-      <Grid container justifyContent={"center"} alignItems={"center"}>
-        {sonuclar}
+      <Grid container justifyContent={"space-around"} alignItems={"center"}>
+        <Grid item xs={12}>
+          <br />
+          <Typography
+            component="p"
+            color="#979dac"
+            fontSize={isMobile ? 39 : 25}
+            paragraph={true}
+            textAlign={isMobile ? "center" : "center"}
+          >
+            Languages
+          </Typography>
+          <br />
+        </Grid>
+        {languages}
       </Grid>
     </>
   );
