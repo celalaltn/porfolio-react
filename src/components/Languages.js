@@ -18,8 +18,15 @@ export default function Languages() {
               alt={photos.title}
               style={{ width: "170px", height: "170px" }}
             />
-            <Typography component="p" color="white" textAlign="center">
-              <br />
+            <br />
+            <br />
+            <br />
+            <Typography
+              component="p"
+              color="white"
+              textAlign="center"
+              fontSize="20px"
+            >
               {photos.title}
             </Typography>
           </Grid>
@@ -32,6 +39,7 @@ export default function Languages() {
       <Grid container justifyContent={"space-around"} alignItems={"center"}>
         <Grid item xs={12}>
           <br />
+
           <Typography
             component="p"
             color="#979dac"

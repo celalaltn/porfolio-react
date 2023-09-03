@@ -32,7 +32,12 @@ export default function Header() {
     >
       <Grid container justifyContent={"center"} alignItems={"center"}>
         <Grid item md={6} lg={5}>
-          <Box display="flex" justifyContent="space-between" width="100%">
+          <Box
+            display="flex"
+            justifyContent="space-between"
+            width="100%"
+            marginTop={3}
+          >
             <Link
               href={"/"}
               className="link"
