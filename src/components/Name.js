@@ -26,7 +26,7 @@ export default function Name() {
           >
             <Grid item>
               <Typography
-                className="  typing-effect"
+                className="  typing-effect link"
                 component="h1"
                 fontSize={isMobile ? 80 : 40}
                 textAlign={"center"}
@@ -34,7 +34,7 @@ export default function Name() {
                 {data.name}
               </Typography>
               <Typography
-                className="tracking-in-expand"
+                className="tracking-in-expand link"
                 component="h2"
                 fontSize={isMobile ? 25 : 20}
                 textAlign={"center"}

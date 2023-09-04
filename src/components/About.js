@@ -45,13 +45,19 @@ export default function About() {
         <Typography
           component="p"
           color="#979dac"
-          fontSize={isMobile ? 25 : 25}
+          fontSize={isMobile ? 35 : 25}
           paragraph={true}
           textAlign={isMobile ? "start" : "center"}
+          className="link"
         >
           {data.aboutTitle}
         </Typography>
-        <Typography component="p" color="#979dac" fontSize={isMobile ? 20 : 20}>
+        <Typography
+          component="p"
+          color="#979dac"
+          fontSize={isMobile ? 18 : 18}
+          className="link"
+        >
           {data.aboutStory}
         </Typography>
       </Grid>

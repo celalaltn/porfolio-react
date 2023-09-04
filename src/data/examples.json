@@ -1,0 +1,104 @@
+[
+  {
+    "id": 1,
+    "projectName": "Yeni Dünya Belgelendirme",
+    "projectImg": "../assests/myk.png",
+    "projectURL": "",
+    "projectTechs": [
+      {
+        "id": 1,
+        "techName": " HTML"
+      },
+      {
+        "id": 2,
+        "techName": " CSS "
+      },
+      {
+        "id": 3,
+        "techName": " JavaScript "
+      }
+    ],
+    "responsibility": [
+      {
+        "id": 1,
+        "techName": " React hooks kullanıldı.  "
+      },
+      {
+        "id": 2,
+        "techName": " Next 13 kullanıldı. "
+      },
+      {
+        "id": 3,
+        "techName": " Stabil ve response componentler inşa edildi. "
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "projectName": "Akdeniz Konsept",
+    "projectImg": "../assests/myk.png",
+    "projectURL": "",
+    "projectTechs": [
+      {
+        "id": 1,
+        "techName": " HTML"
+      },
+      {
+        "id": 2,
+        "techName": " CSS "
+      },
+      {
+        "id": 3,
+        "techName": " JavaScript "
+      }
+    ],
+    "responsibility": [
+      {
+        "id": 1,
+        "techName": " React hooks kullanıldı.  "
+      },
+      {
+        "id": 2,
+        "techName": " Next 13 kullanıldı. "
+      },
+      {
+        "id": 3,
+        "techName": " Stabil ve response componentler inşa edildi. "
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "projectName": "LD Dental Clinic",
+    "projectImg": "../assests/myk.png",
+    "projectURL": "",
+    "projectTechs": [
+      {
+        "id": 1,
+        "techName": " HTML"
+      },
+      {
+        "id": 2,
+        "techName": " CSS "
+      },
+      {
+        "id": 3,
+        "techName": " JavaScript "
+      }
+    ],
+    "responsibility": [
+      {
+        "id": 1,
+        "techName": " React hooks kullanıldı.  "
+      },
+      {
+        "id": 2,
+        "techName": " Next 13 kullanıldı. "
+      },
+      {
+        "id": 3,
+        "techName": " Stabil ve response componentler inşa edildi. "
+      }
+    ]
+  }
+]

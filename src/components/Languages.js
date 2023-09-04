@@ -4,6 +4,8 @@ import React from "react";
 import { Grid, Typography, useMediaQuery } from "@mui/material";
 // JSON File
 import data from "../data/languages.json";
+//CSS File
+import "./style.css";
 
 export default function Languages() {
   const isMobile = useMediaQuery("(min-width:900px)");
@@ -23,9 +25,10 @@ export default function Languages() {
             <br />
             <Typography
               component="p"
-              color="white"
+              color="#979dac"
+              fontSize={isMobile ? 20 : 20}
+              className="link"
               textAlign="center"
-              fontSize="20px"
             >
               {photos.title}
             </Typography>
@@ -43,12 +46,13 @@ export default function Languages() {
           <Typography
             component="p"
             color="#979dac"
-            fontSize={isMobile ? 39 : 25}
+            fontSize={isMobile ? 80 : 25}
             paragraph={true}
-            textAlign={isMobile ? "center" : "center"}
+            className="link"
           >
             Languages
           </Typography>
+          <br />
           <br />
         </Grid>
         {languages}

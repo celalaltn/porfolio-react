@@ -9,6 +9,7 @@ import ScrollToTop from "./components/ScrollToTop";
 //Header component
 import Header from "./components/Header";
 import Languages from "./components/Languages";
+import Examples from "./components/Examples";
 
 function App() {
   window.addEventListener(
@@ -29,7 +30,7 @@ function App() {
 
         <ScrollToTop />
         <Container maxWidth="xl">
-          <Grid container spacing={3}>
+          <Grid container spacing={5}>
             <Header />
             <Grid item xs={12}>
               <Name />
@@ -39,6 +40,11 @@ function App() {
             </Grid>
             <Grid item xs={12}>
               <Languages />
+            </Grid>
+            <Grid item xs={12}>
+              <br />
+              <br />
+              <Examples />
             </Grid>
           </Grid>
         </Container>
